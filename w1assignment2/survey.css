@@ -1,0 +1,113 @@
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+@font-face {
+    font-family: poppinContent;
+    src: url("./Poppins-Thin.otf");
+}
+@font-face {
+    font-family: poppinThinItalic;
+    src: url("./Poppins-ThinItalic.otf");
+}
+body {
+    color: white;
+    font-family: poppinContent, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0;
+    font-weight: 400;
+}
+#page {
+    background:rgba(115, 115, 187, 0.7); 
+}
+#background {
+    background: #7373BB url("./survey-form-background_min.jpg") center top;
+    background-attachment: fixed;
+}
+#content {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 30px 30px 30px;
+}
+h1 {
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+div > p {
+    font-family: poppinThinItalic, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+label {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+}
+form p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+input , select {
+    padding: 7px 9px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+}
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    margin: 15px auto;
+    background-color: #37AF65;
+}
+select {
+    margin-top: 6px;
+}
+input {
+    margin-top: 3px;;
+}
+input[type=radio], input[type=checkbox] {
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+label.groupbtns {
+    padding-top: 2px;
+    padding-bottom: 0;
+    margin-top: 1px;
+}
+p span{
+    font-size: 80%;
+}
+@media screen and (min-width: 400px) {
+    #content {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #content {
+        width: 50%;
+    }
+}
