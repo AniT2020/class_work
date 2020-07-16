@@ -72,7 +72,7 @@ textarea {
     width: 100%;
     box-sizing: border-box;
 }
-button {
+.button {
     width: 100%;
     box-sizing: border-box;
     border: none;

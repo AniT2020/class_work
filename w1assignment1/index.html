@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Let us know about you</title>
+    <link rel="stylesheet" href="./interest.css">
 </head>
 <body>
-    <h1></h1>
+<form action="">
+    <p>Let us know a little about you.</p>
+<div>
+    <label for="name">*Name:</label>
+    <div>
+        <input type="text" name="name" required placeholder="enter your name">
+    </div>
+</div>
+<div>
+    <label for="email">*E-mail:</label>
+    <div>
+        <input type="text" name="email" required placeholder="enter your email">
+    </div>
+</div>
+<div>
+    <label for="age">*Age:</label>
+    <div>
+        <input type="text" name="email" required placeholder="age" size="4">
+    </div>
+</div>
+<div>
+    <label for="technology">What kind of technology you are interested in:</label>
+    <div>
+        <select name="technology" id="">
+            <option value="web">Web technology</option>
+        </select>
+    </div>
+</div>
+<div>
+    <label for="study">How long you would like to study with us?:</label>
+    <div>
+        <label for="year1">
+            <input type="radio" name="year1"> 1 Year
+        </label>
+        <label for="year2">
+            <input type="radio" name="year2"> 2 Years
+        </label>
+        <label for="year3">
+            <input type="radio" name="year3"> 3 Years
+        </label>
+    </div>
+</div>
+<div>
+    <label for="style">Which learning style do you preffer:</label>
+    <div>
+        <label for="learnself">
+            <input type="checkbox" name="learnself"> Self-learning
+        </label>
+        <label for="withteacher">
+            <input type="checkbox" name="withteacher"> Learning with teacher
+        </label>
+        <label for="ingroup">
+            <input type="checkbox" name="ingroup"> Group learning
+        </label>
+        <label for="onlinelearn">
+            <input type="checkbox" name="onlinelearn"> Online learning
+        </label>
+        <label for="privatelearn">
+            <input type="checkbox" name="learnself"> Private learning
+        </label>
+    </div>
+</div>
+<div>
+    <label for="more">Tell us something else:</label>
+    <div>
+        <textarea name="more" id="" cols="34" rows="4" placeholder="enter any suggestions here"></textarea>
+    </div>
+</div>
+<div id="button">
+    <input type="submit" value="Submit">
+</div>
+</form>
 </body>
 </html>

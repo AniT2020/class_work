@@ -1,0 +1,122 @@
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+body{
+    background-color: #87CEEB;
+    margin: 0;
+}
+form{
+    background-color: white;
+    width: 98%;
+    margin-left: 1%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+form > div label, form div div{
+    display: block;
+    float:left;
+}
+form div label{
+    text-transform: uppercase;
+}
+form div div label{ 
+    text-align: left;
+}
+label{
+    padding: 6px 10px 4px 0;
+    box-sizing: border-box;
+    font-size: 80%;
+}
+input, select{
+    padding: 4px 6px;
+}
+/* label, input, select{
+    margin: 8px 0 6px 0;
+} */
+div{
+    margin: 8px 0 6px 0;
+}
+div div{
+    margin: 0;
+}
+div div input{
+    margin: 4px 0 2px 0;
+}
+div div label, div div input{
+    padding: 2px 0 2px 0;
+    margin: 0;
+}
+/* mobile */
+form > div label, form div div{
+    width:100%;
+}
+/* end mobile */
+form div:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+div div label{
+    display: block;
+    width: 100%;
+}
+div input{
+    margin: 20px auto;
+}
+div#button{
+    margin: 6px auto 4px auto;
+}
+div#button input{
+    background-color: #87CEEB;
+    padding: 20px 15px;
+    color:white;
+    border-radius: 8px;
+}
+@media screen and (min-width: 500px) {
+    form {
+        width: 70%;
+        margin-left: 15%;
+        padding: 30px;
+    }
+}
+@media screen and (min-width: 800px) {
+    form {
+        width: 90%;
+        margin-left: 5%;
+        padding: 30px;
+    }
+    form div label, form div div{
+        width:50%;
+    }
+    form div div label{
+        width: 100%;
+    }
+    form div label{
+        text-align: right;
+    }
+    p{
+        text-align: center;
+    }
+    div#button{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1000px) {
+    form {
+        width: 70%;
+        margin-left: 15%;
+        padding: 30px;
+    }
+    form div label, form div div{
+        width:50%;
+    }
+    form div div label{
+        width: 100%;
+    }
+}
